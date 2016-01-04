@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic,700);
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+em {
+    font-style: italic;
+}
+
+a {
+    color: #e33;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    color: #a11;
+}
+
+header {
+    background-color: #009688;
+    border-top: 20px solid #00796b;
+    color: #fff;
+}
+
+header > .wrapper {
+    max-width: 748px;
+    margin: 0 auto;
+    padding: 60px 26px;
+}
+
+h1 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b2dfdb;
+    margin: 15px 0 0 0;
+
+}
+
+#content {
+}
+
+#content > ul {
+}
+
+#content > ul > li {
+    padding: 40px 0;
+    border-top: 1px solid #d9d9d9;
+}
+
+#content > ul > li:first-child {
+    border: none;
+}
+
+#content > ul > li > p {
+    max-width: 748px;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+
+p img {
+    width: 100%;
+    height: auto;
+}
+
+#options {
+    max-width: 748px;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+
+#options .row {
+    padding: 7px 0;
+}
+
+#options label {
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+}
+
+#options select {
+    border: 1px solid #ddd;
+    padding: 6px 4px;
+}
+
+.apst-button {
+    background-color: #ffc107 !important;
+    }
+
+.apst-button:hover {
+    background-color: #212121 !important;
+    }
