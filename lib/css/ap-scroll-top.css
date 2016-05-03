@@ -26,28 +26,28 @@
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    }
+}
 
     .apst-top {
         top: 20px;
-        }
+    }
 
     .apst-bottom {
         bottom: 20px;
-        }
+    }
 
     .apst-left {
         left: 20px;
-        }
+    }
 
     .apst-center {
         left: 50%;
         margin-left: -40px;
-        }
+    }
 
     .apst-right {
         right: 20px;
-        }
+    }
 
     .apst-button {
         display: block;
@@ -65,7 +65,7 @@
             -ms-transition: all 0.2s;
              -o-transition: all 0.2s;
                 transition: all 0.2s;
-        }
+    }
 
     .apst-button::before {
         content: "";
@@ -87,43 +87,47 @@
             -ms-transition: all 0.2s;
              -o-transition: all 0.2s;
                 transition: all 0.2s;
-        }
+    }
+
+    .lt-ie9 .apst-button {
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAG1BMVEUAAAD////////////////////////////////rTT7CAAAACHRSTlMAOfJhxAy4AkQzkWYAAACBSURBVEjH7cyxCYBAFIPhiIituIGdpaULCJYWDmHpDCpyYwvhIcLxYq3c3wXCh1Tq62UVdHXzArRbpYEQGg2EQEIAJBRAQgAkFLD3JHygy0n4AEDCBwASAjDCB4wQgBEe4BMLgZs4o8NM4CaG6FCMBIw4JsQEASMGxJXPsSKV+m8XlKczI6Hk6gkAAAAASUVORK5CYII=') no-repeat scroll 8px 7px transparent;
+    }
 
     .apst-button:hover {
         background-color: #333;
-        }
+    }
 
     .apst-button:hover::before {
         border-color: white;
-        }
+    }
 
     @media only screen and (max-width: 640px) {
         .apst-center {
             margin-left: -35px;
-            }
+        }
 
         .apst-button {
             width: 70px;
             height: 70px;
-            }
+        }
 
         .apst-button::before {
             left: 25px;
             top: 27px;
             width: 20px;
             height: 20px;
-            }
         }
+    }
 
     @media only screen and (max-width: 400px) {
         .apst-center {
             margin-left: -30px;
-            }
+        }
 
         .apst-button {
             width: 60px;
             height: 60px;
-            }
+        }
 
         .apst-button::before {
             left: 21px;
@@ -131,5 +135,5 @@
             width: 18px;
             height: 18px;
             border-width: 5px;
-            }
         }
+    }
